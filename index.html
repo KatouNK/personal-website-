@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Website</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Hubungkan CSS -->
+</head>
+<body>
+
+  <!-- Profile Picture -->
+  <div class="profile-container">
+    <img src="src/Self-portrait.png" alt="Profile Picture" class="profile-pic">
+  </div>
+
+  <!-- Full Name -->
+  <h1 class="full-name">Muhamad Hafizh Husaini</h1>
+
+  <!-- Social Media Icons -->
+  <div class="social-media">
+    <a href="https://www.instagram.com/m_hafizh.h/" class="social-icon">
+      <img src="/src/icons8-instagram (1).svg" alt="Social Media 1" class="social-logo">
+    </a>
+    <a href="https://www.linkedin.com/in/mhafizhhsv42banyuwangi/" class="social-icon">
+      <img src="/src/icons8-linkedin.svg" alt="Social Media 2" class="social-logo">
+    </a>
+    <a href="https://github.com/KatouNK" class="social-icon">
+      <img src="/src/icons8-github.svg" alt="Social Media 3" class="social-logo">
+    </a>
+  </div>
+  
+
+  <!-- Date and Time -->
+  <div class="date-time">
+    <span id="currentDateTime"></span>
+  </div>
+
+  <script>
+    // Script untuk tanggal dan jam
+    function updateDateTime() {
+      const dateTimeElement = document.getElementById("currentDateTime");
+      const now = new Date();
+      const formattedDate = now.toLocaleDateString();
+      const formattedTime = now.toLocaleTimeString();
+      dateTimeElement.textContent = `${formattedDate}, ${formattedTime}`;
+    }
+    setInterval(updateDateTime, 1000); // Update setiap detik
+  </script>
+
+</body>
+</html>

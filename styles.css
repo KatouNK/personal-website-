@@ -1,0 +1,55 @@
+/* Gaya Umum */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  h1.full-name {
+    margin-top: 20px;
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .profile-container {
+    margin-top: 50px;
+  }
+  
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  /* Social Media */
+  .social-media {
+    margin-top: 20px;
+  }
+  
+  /* Gaya untuk logo sosial media */
+.social-logo {
+    width: 50px; /* Sesuaikan dengan ukuran yang diinginkan */
+    height: 50px;
+    object-fit: contain; /* Memastikan gambar tidak terpotong */
+  }
+  
+  .social-icon {
+    margin: 0 10px;
+    display: inline-block;
+  }
+  
+  .social-icon img {
+    border-radius: 50%; /* Opsional jika ingin gambar berbentuk lingkaran */
+  }
+  
+  
+  /* Tanggal dan Waktu */
+  .date-time {
+    margin-top: 30px;
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
