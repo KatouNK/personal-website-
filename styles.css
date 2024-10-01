@@ -47,9 +47,17 @@ body {
   
   
   /* Tanggal dan Waktu */
-  .date-time {
-    margin-top: 30px;
+  /* Gaya untuk elemen waktu */
+.date-time {
+    position: fixed;
+    bottom: 10px; /* Jarak dari bawah */
+    right: 10px;  /* Jarak dari kanan */
     font-size: 1.2rem;
     color: #555;
+    background-color: #f4f4f4; /* Bisa disesuaikan */
+    padding: 5px 10px;
+    border-radius: 5px; /* Membuat sudut agak bulat */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); /* Opsional: bayangan */
   }
+  
   
